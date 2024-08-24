@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Palace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Nav Bar -->
+    
+    <nav>
+        <h3>
+            <i class="fa-solid fa-seedling"></i>
+            Plant Palace
+        </h3>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#hero-page">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contactus">Contact Us</a></li>
+        </ul>
+        <div class="nav-icons">
+            <!-- <button><i class="fa-solid fa-xmark"></i></button> -->
+            <button class="icon-button" id="menu-btn"><i id="menu-icon" class="fa-solid fa-bars"></i></button>
+            <button class="icon-button" id="cart-btn">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="notification" id="total-cart-items">0</span>
+            </button>
+
+        </div>
+    </nav>
+
+    <!-- Cart -->
+
+    <div class="cart" id="cart">
+        <button class="icon-button" id="cart-close-icon"><i class="fa-solid fa-xmark"></i></button>
+        <h1>Your Cart</h1>
+        <div class="cart-items-container">
+            <p>No Products Selected</p>
+        </div>
+        <div class="details">
+            <p>Total Bill : $<span class="total-bill">120</span></p>
+            <button class="checkout" id="checkout">Checkout</button>
+        </div>
+    </div>
+
+    <!-- Hero Page -->
+    <div id="hero-page" class="hero-page">
+        <div class="bg-image"></div>
+        <div class="tag-lines">
+            <h1>Welcome to <span>Plant Palace</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, placeat ipsam sed eum omnis voluptate laboriosam quos autem ipsum, suscipit quas possimus iusto quae nostrum, corporis doloremque praesentium nam nesciunt?</p>
+            <div class="header-button">
+                <div class="buy-button-container">
+                    <a href="#products" class="buy-button">Buy Now</a>
+                    <a href="#contactus" class="contact-button">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="vector-image" id="animation-container"></div>
+    </div>
+    
+    <!-- About -->
+    <div id="about" class="about">
+        <div class="about-content">
+            <h1>About Plant Palace</h1>
+            <p>Welcome to Plant Palace, your green sanctuary in the digital world! We are passionate about bringing the beauty of nature into your home and office with our carefully curated selection of indoor plants. Our mission is to help you create a serene and healthy environment with the power of plants.</p>
+        </div>
+        <div class="about-image">
+            <img src="./assests/pexel-3126421.jpeg" alt="Beautiful indoor plants" />
+        </div>
+    </div>
+
+    <!-- Products -->
+        <section id="products" class="products">
+            <h1>Our Products</h1>
+            <div class="search-container">
+                <input type="text" placeholder="Search Products" class="search-box">
+            </div>
+            <div class="all-products" id="all-products">
+                <div class="product">
+                    <img src="./assests/plant1.jpeg" alt="">
+                    <div class="product-details">
+                        <h4 class="product-title">
+                            Money Plant
+                        </h4>
+                        <p class="product-price">$120</p>
+                        <a href="#" class="product-btn">Buy</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="./assests/plant2.jpeg" alt="">
+                    <div class="product-details">
+                        <h4 class="product-title">
+                            Money Plant
+                        </h4>
+                        <p class="product-price">$120</p>
+                        <a href="#" class="product-btn">Buy</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="./assests/plant3.jpeg" alt="">
+                    <div class="product-details">
+                        <h4 class="product-title">
+                            Money Plant
+                        </h4>
+                        <p class="product-price">$120</p>
+                        <a href="#" class="product-btn">Buy</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="./assests/plant1.jpeg" alt="">
+                    <div class="product-details">
+                        <h4 class="product-title">
+                            Money Plant
+                        </h4>
+                        <p class="product-price">$120</p>
+                        <a href="#" class="product-btn">Buy</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="./assests/plant1.jpeg" alt="">
+                    <div class="product-details">
+                        <h4 class="product-title">
+                            Money Plant
+                        </h4>
+                        <p class="product-price">$120</p>
+                        <a href="#" class="product-btn">Buy</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="./assests/plant1.jpeg" alt="">
+                    <div class="product-details">
+                        <h4 class="product-title">
+                            Money Plant
+                        </h4>
+                        <p class="product-price">$120</p>
+                        <a href="#" class="product-btn">Buy</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="./assests/plant3.jpeg" alt="">
+                    <div class="product-details">
+                        <h4 class="product-title">
+                            Money Plant
+                        </h4>
+                        <p class="product-price">$120</p>
+                        <a href="#" class="product-btn">Buy</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="./assests/plant2.jpeg" alt="">
+                    <div class="product-details">
+                        <h4 class="product-title">
+                            Money Plant
+                        </h4>
+                        <p class="product-price">$120</p>
+                        <a href="#" class="product-btn">Buy</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    
+
+    <script src="https://kit.fontawesome.com/d8131fb824.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.6/lottie.min.js"></script>
+
+    <script src="./script.js"></script>
+</body>
+</html>
